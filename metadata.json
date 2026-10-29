@@ -1,0 +1,6 @@
+{
+  "name": "ActiveRecall",
+  "description": "A modern, responsive student study app featuring focused study sessions, interactive flashcards, and progress tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
