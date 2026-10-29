@@ -17,12 +17,12 @@ import {
   calculateDashboardStats,
 } from './storage';
 
-import Navigation from './components/Navigation';
-import Dashboard from './components/Dashboard';
-import StudyTimer from './components/StudyTimer';
-import Flashcards from './components/Flashcards';
-import StudyHistory from './components/StudyHistory';
-import Toast, { ToastMessage } from './components/Toast';
+import Navigation from './Navigation';
+import Dashboard from './Dashboard';
+import StudyTimer from './StudyTimer';
+import Flashcards from './Flashcards';
+import StudyHistory from './StudyHistory';
+import Toast, { ToastMessage } from './Toast';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<ActiveTab>('dashboard');
