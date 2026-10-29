@@ -1,4 +1,4 @@
-import { Flashcard, StudySession, DashboardStats } from '../types';
+import { Flashcard, StudySession, DashboardStats } from './types';
 
 const STORAGE_KEYS = {
   SESSIONS: 'activerecall_study_sessions',
