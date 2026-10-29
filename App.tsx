@@ -15,7 +15,7 @@ import {
   deleteFlashcard,
   loadSampleFlashcards,
   calculateDashboardStats,
-} from './services/storage';
+} from './storage';
 
 import Navigation from './components/Navigation';
 import Dashboard from './components/Dashboard';
