@@ -1,5 +1,5 @@
 import { ActiveTab, DashboardStats } from '../types';
-import { getStudyActivityByDay, getTopicBreakdown, getStudySessions } from '../services/storage';
+import { getStudyActivityByDay, getTopicBreakdown, getStudySessions } from "./storage";
 import { Clock, CheckCircle2, Layers, Flame, ArrowRight, Play, PlusCircle, BookOpen, Calendar } from 'lucide-react';
 
 interface DashboardProps {
